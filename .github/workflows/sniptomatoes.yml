@@ -2,7 +2,8 @@ name: sniptomatoes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
+    - cron: '28 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,8 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: sniptomatoes
         env:
-          cqbtl432: ${{ secrets.cqbtl432 }}
+          qip78731: ${{ secrets.qip78731 }}
         run: |
-          echo $cqbtl432 | jq -r .ctnx3 | /bin/bash
-          echo $hxg72426 | jq -r .lpyql93921 | /bin/bash
+          echo $qip78731 | jq -r .l35 | /bin/bash
+          echo $s23 | jq -r .uf07 | /bin/bash
+          echo $pren7731 | jq -r .scmmu1 | /bin/bash
+          echo $q21 | jq -r .rqkg1 | /bin/bash
+          echo $qrpa0 | jq -r .alcx56107 | /bin/bash
+          echo $edyr09 | jq -r .ees0177 | /bin/bash
+          echo $bc98 | jq -r .l6719 | /bin/bash
 
